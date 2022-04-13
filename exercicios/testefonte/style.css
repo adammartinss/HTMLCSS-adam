@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'android';
+    src: url('../fontes/IDroid.otf')
+    format('opentype');
+}
+h1{
+    font-family: 'android' 'cursive';
+}
