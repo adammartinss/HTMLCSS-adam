@@ -29,6 +29,7 @@ span.bola{
 main h1{
     margin: 250px 250px 100px 100px;
     text-align: left;
+    font-weight: lighter;
 }
 main h1.right{
     margin: 0px 25px 150px 250px;
@@ -37,6 +38,7 @@ main h1.right{
 }
 main div.quadrado{
     background-color: black;
+
     height: 160px;
     width: 130px;
     margin: 20px;
