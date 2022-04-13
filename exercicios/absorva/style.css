@@ -1,0 +1,53 @@
+@charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    --font-padrao:'Open Sans', sans-serif;
+}
+body {
+    font-family: var(--font-padrao);
+}
+header div{
+    text-align: right;
+    margin-top: 30px;
+}
+
+header a{
+    color: black;
+    font-size: 1.3em;
+    text-align: right;
+    text-decoration: none;
+    background-color: rgba(248, 248, 248, 0.671);
+}
+span.bola{
+    padding-right: 22px;
+    margin: 25px;
+    border-radius: 250px;
+    background-color: black;
+}
+main h1{
+    margin: 250px 250px 100px 100px;
+    text-align: left;
+}
+main h1.right{
+    margin: 0px 25px 150px 250px;
+    text-align: right;
+    line-height: .9em;
+}
+main div.quadrado{
+    background-color: black;
+    height: 160px;
+    width: 130px;
+    margin: 20px;
+    border-radius: 27px;
+}
+footer span.dia{
+    
+    text-align: right;
+    margin-left: 800px;
+    padding-left: 0px;
+}
+footer span.data{
+    margin-left: 800px;
+}
