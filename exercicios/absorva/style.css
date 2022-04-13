@@ -42,12 +42,16 @@ main div.quadrado{
     margin: 20px;
     border-radius: 27px;
 }
-footer span.dia{
+footer div.dia{
     
     text-align: right;
-    margin-left: 800px;
+    margin-left: 320px;
     padding-left: 0px;
+    margin-right: 25px;
 }
-footer span.data{
-    margin-left: 800px;
+footer div.data{
+    padding-left: 0px;
+    text-align: right;
+    margin-left: 320px;
+    margin-right: 25px;
 }
