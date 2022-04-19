@@ -1,16 +1,14 @@
 @charset "UTF-8"
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200&family=Open+Sans&display=swap');
 
 :root {
-    --font-padrao:'Open Sans', sans-serif;
-    --font-test:
+    --font-test:'JetBrains Mono', monospace;
 }
 body {
-    font-family: var(--font-padrao);
+    font-family: var(--font-test);
+    
 }
 header nav{
     text-align: right;
