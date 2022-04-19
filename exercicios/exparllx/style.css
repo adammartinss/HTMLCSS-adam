@@ -1,0 +1,36 @@
+@charset 'UTF-8'
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+                /*seleciona de 2 em 2 começando pelo 1*/
+/*p:nth-of-type 2n+1 
+  color: red;
+
+                /*seleciona de 3 em 3 começando pelo 2*/
+/*p:nth-of-type 3n+2 
+  color: red;
+
+
+                /*seleciona de 3 em 3 */
+/*p:nth-of-type 3n 
+  color: red;
+*/
+    div{
+        width: 100%;
+        height: 400px;
+    }
+    div:nth-of-type(1){
+        background-color: black;
+    }
+    div:nth-of-type(2){
+        background-image: url(");
+    }
+    div:nth-of-type(3){
+        background-image: url(");
+    }    
+    div:nth-of-type(4){
+        background-image: url(");
+    }
