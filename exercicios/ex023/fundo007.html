@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento Vertica</title>
+    <style>
+        #container{
+            position: relative;/*o de baixo deve ter pos relativo*/
+            background-image: url('imagens/target001.png');
+            background-size:100% 100%; /*mostra 100% do target*/
+            height: 500px;
+            padding: 10px;
+            background-color: #8D31E8 ;
+        }
+        #content{
+            position: absolute;/*o de cima deve ter pos absouto*/
+            background-image: url('imagens/target001.png');
+            background-size:100% 100%; /*mostra 100% do target*/
+            height:200px;
+            width:400px;
+            background-color: #25E8D4;
+            left:50%;
+            top:50%;
+                /*alinha a imagem ao fundo colocando uma distancia relativa entre seus cantos superiores esquerdos*/
+            transform: translate(-50%, -50%);/*corrige o fato de ser os dois cantos conectados transladando a imagem 50% para esquerda e 50% para cima*/
+        }
+    </style>
+</head>
+<body>
+    <section id="container">
+        <article id="content">
+
+        </article>
+    </section>
+</body>
+</html>
