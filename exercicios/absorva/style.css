@@ -21,12 +21,22 @@ header a{
     text-align: right;
     text-decoration: none;
     background-color: rgba(248, 248, 248, 0.671);
+    padding: 4px;
+}
+header a:hover{
+    background-color: black;
+    color: rgba(248, 248, 248, 0.671);
+    transition: .5s;
+    
 }
 span.bola{
     padding-right: 22px;
     margin: 25px;
     border-radius: 250px;
     background-color: black;
+}
+span.bola:active{
+    background-color: blueviolet;
 }
 main h1{
     margin: 250px 250px 100px 100px;
