@@ -1,0 +1,10 @@
+Mas eu não julgo essa dama
+Ela curte viver mermo vivendo mais drama
+Mas não chore por ser amante dum louco
+Chore se eu não vencer porque sabotaram o jogo
+
+a ambicao de ter o mundo nas maos
+apresentart um projeto com bases reais em um html com css js e php(para coletar os dados)
+sobre a possibilidade de integrar à plataforma de provas uma extensão que facilita a comunicação com com o back-end que
+escolhe a questão e uma tecnologia que a narra em uma plataforma mais simples para promt de comando deficientes visuais e
+afins
