@@ -70,6 +70,7 @@ footer div#dia{
 footer div#data{
     padding-left: 0px;
     text-align: right;
+    margin-top: 1px;
     margin-left: 320px;
     margin-right: 25px;
 }
