@@ -56,6 +56,10 @@ main div.quadrado{
     margin: 20px;
     border-radius: 27px;
 }
+div.quadrado:hover{
+    background-color: rgba(248, 248, 248, 0.671);
+    border: 1px solid black;
+}
 footer div#dia{
     
     text-align: right;
