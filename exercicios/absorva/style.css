@@ -30,7 +30,7 @@ header a:hover{
     
 }
 span.bola{
-    padding-right: 22px;
+    padding-right: 21px;
     margin: 25px;
     border-radius: 250px;
     background-color: black;
@@ -39,12 +39,12 @@ span.bola:active{
     background-color: blueviolet;
 }
 main h1{
-    margin: 250px 250px 100px 100px;
+    margin: 100px 250px 75px 100px;
     text-align: left;
     font-weight: lighter;
 }
 main h1.right{
-    margin: 0px 25px 150px 250px;
+    margin: 0px 25px 50px 100px;
     text-align: right;
     line-height: .9em;
 }
@@ -56,14 +56,14 @@ main div.quadrado{
     margin: 20px;
     border-radius: 27px;
 }
-footer div.dia{
+footer div#dia{
     
     text-align: right;
     margin-left: 320px;
     padding-left: 0px;
     margin-right: 25px;
 }
-footer div.data{
+footer div#data{
     padding-left: 0px;
     text-align: right;
     margin-left: 320px;

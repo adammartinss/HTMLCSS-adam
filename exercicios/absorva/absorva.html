@@ -25,9 +25,83 @@
     </main>
         <footer>
 
-                <div class="dia"d>Tuesday</div>
-                <div class="data">April 12, 2022</div>
+                <div id="dia"></div>
+                <div id="data"></div>
             
         </footer>
+        <script>
+            var agr = new Date()
+            var day = agr.getDay()
+            var printdia = document.querySelector('div#dia')
+            var printdata = document.querySelector ('div#data')
+
+            switch(day){
+                case 0:
+                    printdia.innerHTML = 'Sunday'
+                    break;
+                case 1:
+                    printdia.innerHTML = 'Monday'
+                    break;
+                case 2:
+                    printdia.innerHTML = 'Tuesday'
+                    break;
+                case 3:
+                    printdia.innerHTML = 'Wednesday'
+                    break;
+                case 4:
+                    printdia.innerHTML = 'Thursday'
+                    break;
+                case 5:
+                    printdia.innerHTML = 'Friday'
+                    break;
+                case 6:
+                    printdia.innerHTML = 'Saturday'
+                    break;
+            }
+            var mes = agr.getMonth()
+            var ano = agr.getYear()
+            var diames = agr.getDate()
+            switch (mes){
+                case 0:
+                    printdata.innerHTML = `January, ${diames}, ${ano+1900}`
+                    break;
+                case 1:
+                    printdata.innerHTML = `February, ${diames}, ${ano+1900}`
+                    break;
+                case 2:
+                    printdata.innerHTML = `March, ${diames}, ${ano+1900}`
+                    break;
+                case 3:
+                    printdata.innerHTML = `April, ${diames}, ${ano+1900}`
+                    break;
+                case 4:
+                    printdata.innerHTML = `May, ${diames}, ${ano+1900}`
+                    break;
+                case 5:
+                    printdata.innerHTML = `June, ${diames}, ${ano+1900}`
+                    break;
+                case 6:
+                    printdata.innerHTML = `July, ${diames}, ${ano+1900}`
+                    break;
+                case 7:
+                    printdata.innerHTML = `Agust, ${diames}, ${ano}`
+                    break;
+                case 8:
+                    printdata.innerHTML = `September, ${diames}, ${ano}`
+                    break;
+                case 9:
+                    printdata.innerHTML = `October, ${diames}, ${ano}`
+                    break;
+                case 10:
+                    printdata.innerHTML = `November, ${diames}, ${ano}`
+                    break;
+                case 11:
+                    printdata.innerHTML = `December, ${diames}, ${ano}`
+                    break;
+            }
+
+
+
+        </script>
 </body>
 </html>
