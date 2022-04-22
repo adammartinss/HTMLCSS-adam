@@ -1,107 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ABSORVA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ABSORVA</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
             <nav>
                 <a href="">devs</a>
                 <a href="">sobre</a>
                 <a href="">projetos</a>
                 <span class="bola"></span>
             </nav>
-    </header>
-    <main>
-        <h1>
-            ABSORVA
-        </h1>
-        <h1 class="right"><div>UM</div> <div>LUGAR COM</div> <div>EXPOSIÇÕES SEMANAIS</div></h1>
-        <div class="quadrado"></div>
-    </main>
+        </header>
+        <main>
+            <h1>ABSORVA</h1>
+            <h1 class="right">
+                <div>UM</div>
+                <div>LUGAR COM</div>
+                <div>EXPOSIÇÕES SEMANAIS</div>
+            </h1>
+            <div class="quadrado"></div>
+        </main>
         <footer>
-
-                <div id="dia"></div>
-                <div id="data"></div>
-            
+            <div id="dia"></div>
+            <div id="data"></div>
         </footer>
         <script>
-            var agr = new Date()
-            var day = agr.getDay()
-            var printdia = document.querySelector('div#dia')
-            var printdata = document.querySelector ('div#data')
+            var agr = new Date();
+            var day = agr.getDay();
+            var printdia = document.querySelector('div#dia');
+            var printdata = document.querySelector('div#data');
+            let diawr = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday',];
+            printdia.innerHTML = `${diawr[day]}`
 
-            switch(day){
-                case 0:
-                    printdia.innerHTML = 'Sunday'
-                    break;
-                case 1:
-                    printdia.innerHTML = 'Monday'
-                    break;
-                case 2:
-                    printdia.innerHTML = 'Tuesday'
-                    break;
-                case 3:
-                    printdia.innerHTML = 'Wednesday'
-                    break;
-                case 4:
-                    printdia.innerHTML = 'Thursday'
-                    break;
-                case 5:
-                    printdia.innerHTML = 'Friday'
-                    break;
-                case 6:
-                    printdia.innerHTML = 'Saturday'
-                    break;
-            }
-            var mes = agr.getMonth()
-            var ano = agr.getYear()
-            var diames = agr.getDate()
-            switch (mes){
-                case 0:
-                    printdata.innerHTML = `January, ${diames}, ${ano+1900}`
-                    break;
-                case 1:
-                    printdata.innerHTML = `February, ${diames}, ${ano+1900}`
-                    break;
-                case 2:
-                    printdata.innerHTML = `March, ${diames}, ${ano+1900}`
-                    break;
-                case 3:
-                    printdata.innerHTML = `April, ${diames}, ${ano+1900}`
-                    break;
-                case 4:
-                    printdata.innerHTML = `May, ${diames}, ${ano+1900}`
-                    break;
-                case 5:
-                    printdata.innerHTML = `June, ${diames}, ${ano+1900}`
-                    break;
-                case 6:
-                    printdata.innerHTML = `July, ${diames}, ${ano+1900}`
-                    break;
-                case 7:
-                    printdata.innerHTML = `Agust, ${diames}, ${ano}`
-                    break;
-                case 8:
-                    printdata.innerHTML = `September, ${diames}, ${ano}`
-                    break;
-                case 9:
-                    printdata.innerHTML = `October, ${diames}, ${ano}`
-                    break;
-                case 10:
-                    printdata.innerHTML = `November, ${diames}, ${ano}`
-                    break;
-                case 11:
-                    printdata.innerHTML = `December, ${diames}, ${ano}`
-                    break;
-            }
-
-
-
+            
+            var mes = agr.getMonth();
+            var ano = agr.getYear();
+            var diames = agr.getDate();
+            var meswr = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+            printdata.innerHTML = `${meswr[mes]}, ${diames}, ${ano+1900}`
         </script>
-</body>
+    </body>
 </html>
